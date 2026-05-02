@@ -1,0 +1,17 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Neovim / NvChad local state (don't sync these)
+nvim/.config/nvim/undo/
+nvim/.config/nvim/view/
+nvim/.config/nvim/spell/
+nvim/.config/nvim/node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local zsh history/sessions (if they end up in your repo)
+.zsh_sessions/
+.zsh_history
